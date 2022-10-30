@@ -40,7 +40,7 @@
   flex-grow: 1;
 }
 
-.task-row-wrapper {
+.add-item__container {
   display: flex;
 }
 
@@ -109,7 +109,7 @@ input[type="text"]:focus {
   margin: 0 0 20px;
 }
 
-input#new-task {
+.add-item_input {
   width: 318px;
 }
 
