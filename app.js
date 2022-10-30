@@ -10,7 +10,7 @@
 
 var taskInput=document.querySelector(".add-item__input");//Add a new task.
 var addButton=document.getElementsByTagName("button")[0];//first button
-var incompleteTaskHolder=document.querySelector(".todo__list");//ul of #incompleteTasks
+var incompleteTaskHolder=document.querySelector(".todo .list");//ul of #incompleteTasks
 var completedTasksHolder=document.getElementById("completed-tasks");//completed-tasks
 
 
