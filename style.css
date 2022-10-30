@@ -34,7 +34,8 @@
   margin: 0 auto 0;
 }
 
-.list__task {
+.list__task,
+.toolbar__input {
   width: 56%;
   display: inline-block;
   flex-grow: 1;
@@ -55,11 +56,13 @@ h3 {
 }
 
 input,
-.list__button{
+.list__button,
+.toolbar__button {
   outline: none;
 }
 
-.list__button {
+.list__button,
+.toolbar__button {
   background: none;
   border: 0px;
   color: #888;
@@ -69,7 +72,8 @@ input,
   cursor: pointer;
 }
 
-.list__button:hover {
+.list__button:hover,
+.toolbar__button:hover {
   color: #3a3A3a;
 }
 
